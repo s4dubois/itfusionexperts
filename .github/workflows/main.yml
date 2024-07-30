@@ -26,5 +26,5 @@ jobs:
         run: |
           echo Hello, Aditya! I am deploying the site to netlify.
           echo Deployment started...
-          curl -X POST -d {} ${{secrets.netlify_webhook}}
+          #curl -X POST -d {} ${{secrets.netlify_webhook}}
           echo Deployment done ...
